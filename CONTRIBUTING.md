@@ -1,4 +1,4 @@
-# Contribuir a Caritas BUILD WITH AI Medellin
+# Contribuir a Caritas BUILD WITH AI Cartagena
 
 ¡Gracias por querer aportar! Este es un proyecto comunitario, así que cualquier ayuda — desde un typo en el README hasta una feature nueva — es bienvenida.
 

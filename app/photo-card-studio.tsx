@@ -7,11 +7,11 @@ const CARD_WIDTH = 1080;
 const CARD_HEIGHT = 1620;
 const CARD_BORDER = 68;
 const COOLDOWN_MS = 60_000;
-const EVENT_DATE = "23 MAYO";
-const EVENT_LOCATION = "MEDELLIN";
+const EVENT_DATE = "6 JUNIO";
+const EVENT_LOCATION = "CARTAGENA";
 const EVENT_BRAND = "BUILD WITH AI";
 const EVENT_NAME = `${EVENT_BRAND} ${EVENT_LOCATION}`;
-const DEFAULT_EVENT_UNLOCK_AT = "2026-05-23T00:00:00-05:00";
+const DEFAULT_EVENT_UNLOCK_AT = "2026-06-06T00:00:00-05:00";
 const EVENT_UNLOCK_AT = process.env.NEXT_PUBLIC_EVENT_UNLOCK_AT ?? DEFAULT_EVENT_UNLOCK_AT;
 const DEV_UNLOCK_COOKIE = "platzi_dev_unlock";
 const GOOGLE_BLUE = "#4285F4";
@@ -709,7 +709,7 @@ export default function PhotoCardStudio() {
 
     const link = document.createElement("a");
     link.href = capturedImage;
-    link.download = "build-with-ai-medellin-16bit-card.png";
+    link.download = "build-with-ai-cartagena-16bit-card.png";
     link.click();
   };
 
@@ -774,10 +774,10 @@ export default function PhotoCardStudio() {
           </div>
           <div className="space-y-4">
             <h1 className="text-5xl font-black leading-[0.92] tracking-[-0.06em] text-[#FBBC05] sm:text-7xl">
-              Disponible el 23 de Mayo
+              Disponible el 6 de junio
             </h1>
             <p className="mx-auto max-w-xl text-base leading-7 text-zinc-300 sm:text-lg">
-              La cámara y generación de cards se habilitarán automáticamente para BUILD WITH AI Medellin.
+              La cámara y generación de cards se habilitarán automáticamente para BUILD WITH AI Cartagena.
             </p>
           </div>
 
@@ -805,7 +805,7 @@ export default function PhotoCardStudio() {
           >
             @ErasmoHernandez
           </a>
-          , con amor para BUILD WITH AI Medellin ·{" "}
+          , con amor para BUILD WITH AI Cartagena ·{" "}
           <a
             href="https://erasmoh.dev"
             target="_blank"
@@ -831,7 +831,7 @@ export default function PhotoCardStudio() {
               Tu cara en una card 16-bit
             </h1>
             <p className="max-w-lg text-base leading-7 text-zinc-300 sm:text-lg">
-              Usa la cámara frontal, captura tu foto y genera automáticamente un retrato 16-bit pixel con IA para tu card de BUILD WITH AI Medellin.
+              Usa la cámara frontal, captura tu foto y genera automáticamente un retrato 16-bit pixel con IA para tu card de BUILD WITH AI Cartagena.
             </p>
           </div>
 
@@ -911,7 +911,7 @@ export default function PhotoCardStudio() {
               {capturedImage ? (
                 <Image
                   src={capturedImage}
-                  alt="Card final 16-bit de BUILD WITH AI Medellin"
+                  alt="Card final 16-bit de BUILD WITH AI Cartagena"
                   fill
                   unoptimized
                   className="object-cover"
@@ -968,7 +968,7 @@ export default function PhotoCardStudio() {
         >
           @ErasmoHernandez
         </a>
-        , con amor para BUILD WITH AI Medellin ·{" "}
+        , con amor para BUILD WITH AI Cartagena ·{" "}
         <a
           href="https://erasmoh.dev"
           target="_blank"

@@ -1,4 +1,4 @@
-# Caritas BUILD WITH AI Medellin
+# Caritas BUILD WITH AI Cartagena
 
 Webapp Next.js 16 + React 19 + Tailwind 4 + Supabase (opcional) + IA (opcional). Ver `README.md` para detalles.
 

@@ -58,11 +58,11 @@ export default async function MuroPage() {
               "'Courier New', Courier, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace",
           }}
         >
-          MURO BUILD WITH AI MEDELLIN
+          MURO BUILD WITH AI CARTAGENA
         </h1>
         <div className="shrink-0 bg-white p-2 shadow-[0_18px_55px_rgba(0,0,0,0.55)] sm:p-3">
           <Image
-            src="/qr-med.png"
+            src="/qr-ctg.png"
             alt="QR para generar tu imagen"
             width={144}
             height={144}
@@ -87,7 +87,7 @@ export default async function MuroPage() {
         >
           @ErasmoHernandez
         </a>
-        , con amor para BUILD WITH AI Medellin ·{" "}
+        , con amor para BUILD WITH AI Cartagena ·{" "}
         <a
           href="https://erasmoh.dev"
           target="_blank"
