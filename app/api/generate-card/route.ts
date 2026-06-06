@@ -7,7 +7,7 @@ const DEFAULT_GATEWAY_MODEL = "google/gemini-3-pro-image";
 const DEFAULT_OPENAI_MODEL = "gpt-image-1";
 const MAX_IMAGE_LENGTH = 10 * 1024 * 1024;
 const AI_GENERATION_COOLDOWN_MS = 60_000;
-const DEFAULT_EVENT_UNLOCK_AT = "2026-05-23T00:00:00-05:00";
+const DEFAULT_EVENT_UNLOCK_AT = "2026-06-06T00:00:00-05:00";
 const EVENT_UNLOCK_AT = process.env.NEXT_PUBLIC_EVENT_UNLOCK_AT ?? DEFAULT_EVENT_UNLOCK_AT;
 const DEV_UNLOCK_COOKIE = "platzi_dev_unlock";
 const generationCooldowns = new Map<string, number>();
@@ -241,7 +241,7 @@ export async function POST(request: Request) {
   if (!isEventGateOpen(request)) {
     return jsonResponse(
       {
-        error: "La generación estará disponible el 23 de Mayo.",
+        error: "La generación estará disponible el 6 de Junio.",
       },
       { status: 403 },
     );
